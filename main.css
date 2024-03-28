@@ -1,0 +1,316 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.image-div{
+  height: 20px;
+  
+}
+.mybtn{
+  margin-top: 90px;
+  color: #BE0000;
+}
+
+.paycontain{
+  height: 100vh;
+}
+
+.payment-gateway{
+  height: 410px;
+}
+
+.cardme{
+  background: #BE0000;
+  color: #F0F2F5;
+}
+
+.card-container{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.loadcontainer{
+  background-color: rgba(72, 59, 59, 0.6);
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  z-index: 3;
+  display: none;
+}
+
+.loadercon{
+  position: relative;
+  top: 50%;
+ 
+}
+
+
+.custom-navbar{
+    background-color: #F8F9FA;
+    height: 60px;
+    width: 100%;
+}
+
+.custom-search-input {
+    margin-right: 10px; 
+  }
+
+  .navbar-custom-right {
+    justify-content: space-between;
+  }
+
+  .form-inline{
+    display: flex;
+    margin-left: 390px;
+  }
+
+
+  .custom-search-btn {
+    border-color: green;
+    color: green;
+  }
+
+  .container-first{
+    width: 100%;
+    height: 120px;
+    background-color: #198754;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-container{
+   margin-top: 30px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .real-text{
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+
+  }
+
+  .acces-code{
+    display: flex;
+    margin-top: 40px;
+  }
+
+  .section-two{
+    text-align: center;
+    line-height: 30px;
+  }
+
+  .Continue-btn{
+    padding: 5px 5px;
+    border: none;
+    color: #F8F9FA;
+    background-color: #198754;
+    border-radius: 5px
+  }
+
+  input{
+    padding: 5px 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #198754;
+  
+  }
+
+  .green-container{
+    color: #198754;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .last-search{
+    align-items: center;
+    text-align: center;
+  }
+
+#noValid{
+  color: red;
+}
+
+#errorMessage{
+  color: red;
+}
+
+.success{
+  color: #198754;
+}
+
+.bodyType{
+  display: none;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+ margin-top: 20px;
+
+ left: 46%;
+
+}
+
+
+/* FACBOOK LOGIN */
+
+.facebook-container{
+  display: flex;
+background-color: #F0F2F5;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+.recent-login{
+ 
+  background-color: #F0F2F5;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+
+}
+
+.text-f{
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.text-f h2{
+font-family: Helvetica, Arial, sans-serif;
+font-size: 66px;
+margin-bottom: 30px;
+font-weight:600;
+line-height: 16.08px;
+ color: #0866ff;
+}
+
+.text-f .p-one{
+ font-family: Helvetica, Arial, sans-serif;
+ color: rgb(51, 51, 51);
+ font-weight: 400;
+line-height:48.24px;
+font-size: 36px;
+
+}
+
+.the-name{
+ 
+  text-align: center;
+  color: #2c1a1a;
+  font-size: 20px;
+
+ 
+}
+
+.recent-login .her-con{
+ border-radius: 20px;
+
+
+}
+
+.her-con{
+ 
+align-items: center;
+justify-content: center;
+text-align: center; 
+
+}
+
+.recent-login .her-con img{
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
+}
+
+
+
+.message{
+  background-color: #fa3e3e;
+    border-radius: 34px;
+    box-shadow: -1px 1px 2px 0 rgba(0, 0, 0, .3);
+    color: #fff;
+    cursor: default;
+    font-size: 13px;
+    height: 25px;
+    width: 25px;
+    line-height: 24px;
+    position: absolute;
+    left:57%;
+  
+}
+.man-btn{
+  position: relative;
+  background-color: #0866ff;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 332px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.man-btn:hover{
+  background-color: #4b6da5;
+
+}
+
+/* Styles for the loading screen */
+.loading-screen {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(58, 38, 38, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Ensure the loading screen appears on top */
+}
+
+.loader {
+  /* Your loader styles */
+}
+
+.loading-text {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.dot-animation {
+  animation: dot 1.5s infinite;
+}
+
+@keyframes dot {
+  0%, 20% {
+    content: ".";
+  }
+  40% {
+    content: "..";
+  }
+  60% {
+    content: "...";
+  }
+  80% {
+    content: "";
+  }
+}
